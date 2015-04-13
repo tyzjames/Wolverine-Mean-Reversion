@@ -3,7 +3,7 @@ library(RMySQL)
 getData<-function(asset.type)
   if (asset.type == "Gold/Silver 1 min"){
     nname <<- "Gold/Silver 1 min"
-    #     myconn <-dbConnect(MySQL(), user="tyzjames", password="System34", host="acensus.cnneqcdmtwtz.ap-southeast-1.rds.amazonaws.com", dbname="acensusDB")
+    #     myconn <-dbConnect(MySQL(), user="tyzjames", password="**", host="acensus.cnneqcdmtwtz.ap-southeast-1.rds.amazonaws.com", dbname="acensusDB")
     #     df.a1<<-dbGetQuery(myconn, "SELECT * FROM GC_1v3")
     #     df.a2<<-dbGetQuery(myconn, "SELECT * FROM SI_1v3")
     df.a1<<-read.csv(file="data/clean/new/Gold 1min.csv", header=TRUE, sep=",")
