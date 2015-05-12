@@ -4,7 +4,7 @@
 A platform built on the R Shiny Dashboard to display results of a mean reversion strategy using two 
 positively or negatively correlated assets. 
 
-![alt tag](https://dl-web.dropbox.com/get/850325426_75283.jpg?_subject_uid=10247201&w=AADnTBOEoVmf1VVzOw3sbpR-V2sQfM8E8AYLe-__gc8TYQ)
+![alt tag](http://i62.tinypic.com/snh37p.jpg)
 
 ####Strategy
  - Take 2 correlated assets (i.e Gold and Silver) and calculate their relative value based on their price movements over
